@@ -10,8 +10,6 @@ COPY . .
 
 RUN cmake CMakeLists.txt
 RUN make -j16
-RUN cp gptsymmetry $bin
-
 
 # the execution will happen in the folder /workdir/exec
 # it will be created by IPOL
